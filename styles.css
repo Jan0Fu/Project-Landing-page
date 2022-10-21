@@ -9,6 +9,7 @@ li {
 li a {
     color: #b3bfc9;
     text-decoration: none;
+    color: #b0b9c2;
 }
 .header {
     background-color: #1F2937;
@@ -32,18 +33,74 @@ nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 330px;
+    margin-left: 370px;
     margin-top: 30px;
     font-weight: 500;
     font-size: large;
+    color: #b0b9c2
 }
 
 .hero {
-    color: #b3bfc9;
-    height: 350;
+    color: #b0b9c2;
+    height: 400px;
     background-color: #1F2937;
-
+    display: flex;
 }
-.hero > h1 {
-    color: white;
+.hero-text {
+    width: 400px;
+    padding-top: 0;
+    margin-left: 200px;
+    color: #b0b9c2;
+    font-size: 18px;
+}
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 0;
+}
+.signup {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    height: 35px;
+    width: 120px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-img {
+    margin-left: 100px;
+}
+.info {
+    background-color: #F9FAF8;
+    height: 450px;
+}
+.pictures {
+    display: flex;
+}
+.images {
+    border: solid, 3px, #3882F6;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+}
+h2 {
+    color:#1F2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: extra-bold;
+}
+.quote-container {
+    height: 45Opx;
+    background-color: #E5E7EB;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 30px 200px;
 }
