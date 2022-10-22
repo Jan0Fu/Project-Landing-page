@@ -3,6 +3,10 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+body {
+    margin: 0;
+    overflow: auto;
+}
 li {
     list-style: none;
 }
@@ -61,13 +65,14 @@ nav > ul {
 }
 .signup {
     background-color: #3882F6;
-    border: 0;
+    border: 1px solid #F9FAF8;
     border-radius: 8px;
     height: 35px;
     width: 120px;
     color: #F9FAF8;
     font-size: 16px;
     font-weight: 400;
+    margin-right: 140px;
 }
 .main-img {
     margin-left: 100px;
@@ -75,24 +80,59 @@ nav > ul {
 .info {
     background-color: #F9FAF8;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pictures {
     display: flex;
+    justify-content: center;
+    width: 880px;
+    height: 200px;
+    align-items: flex-end;
 }
 .images {
-    border: solid, 3px, #3882F6;
-    width: 140px;
-    height: 140px;
-    justify-content: center;
+    display: flex;
+    width: 1500px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 0 35px;
 }
+.img-description {
+    display: flex;
+    width: 870px;
+}
+.description {
+    display: flex;
+    margin: 10px 25px;
+    text-align: center;
+}
+.html-img {
+    width: 250px;
+    height: auto;
+}
+.java-img {
+    width: 220px;
+    height: auto;
+}
+.python-img {
+    width: 238px;
+    height: auto;
+}
+.mysql-img {
+    width: 250px;
+    height: auto;
+}
+
 h2 {
     color:#1F2937;
     font-size: 36px;
-    text-align: center;
+/*  text-align: center;*/
     font-weight: extra-bold;
 }
 .quote-container {
-    height: 45Opx;
+    height: 50Opx;
     background-color: #E5E7EB;
 }
 .quote {
@@ -103,4 +143,54 @@ h2 {
     font-size: 36px;
     font-weight: lighter;
     padding: 30px 200px;
+    margin-bottom: 0;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 600px;
+    padding-top: 0;
+
+}
+#sign-up {
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-box {
+    display: flex;
+    width: 900px;
+    height: 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 9px;
+    align-items: center;
+    justify-content:space-between;
+}
+.box-text {
+    margin-top: 30px; 
+    margin-left: 140px;
+    width: 300px;
+    font-size: 11;
+    white-space: pre-wrap;
+    font-weight: 200;
+
+}
+.signup-box > .singup {
+    border: 1px solid #F9FAF8;
+    
+}
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+footer {
+    background-color: #1F2937;
+    height: 110px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
