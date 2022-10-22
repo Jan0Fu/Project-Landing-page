@@ -1,7 +1,7 @@
 * {
     font-family: Roboto, sans-serif, Arial;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: auto;
 }
 body {
     margin: 0;
@@ -109,20 +109,20 @@ nav > ul {
     text-align: center;
 }
 .html-img {
-    width: 250px;
-    height: auto;
+    width: 142px;
+    height: 142px;
 }
 .java-img {
-    width: 220px;
-    height: auto;
+    width: 142px;
+    height: 142px;
 }
 .python-img {
-    width: 238px;
-    height: auto;
+    width: 142px;
+    height: 142px;
 }
 .mysql-img {
-    width: 250px;
-    height: auto;
+    width: 142px;
+    height: 142px;
 }
 
 h2 {
