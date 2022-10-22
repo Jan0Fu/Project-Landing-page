@@ -18,7 +18,7 @@ li a {
 .header {
     background-color: #1F2937;
     display: flex;
-    height: 150px;
+    height: 210px;
     min-width: 200px;
     
 }
@@ -76,6 +76,7 @@ nav > ul {
 }
 .main-img {
     margin-left: 100px;
+    margin-top: 23px;
 }
 .info {
     background-color: #F9FAF8;
@@ -118,7 +119,7 @@ nav > ul {
 }
 .python-img {
     width: 184px;
-    height: 144px;
+    height: 143px;
 }
 .mysql-img {
     width: 142px;
@@ -128,7 +129,7 @@ nav > ul {
 h2 {
     color:#1F2937;
     font-size: 36px;
-/*  text-align: center;*/
+/*  text-align: center; */
     font-weight: extra-bold;
 }
 .quote-container {
