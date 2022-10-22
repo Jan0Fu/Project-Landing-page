@@ -65,7 +65,7 @@ nav > ul {
 }
 .signup {
     background-color: #3882F6;
-    border: 1px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
     border-radius: 8px;
     height: 35px;
     width: 120px;
@@ -113,12 +113,12 @@ nav > ul {
     height: 142px;
 }
 .java-img {
-    width: 142px;
+    width: 175px;
     height: 142px;
 }
 .python-img {
-    width: 142px;
-    height: 142px;
+    width: 184px;
+    height: 144px;
 }
 .mysql-img {
     width: 142px;
@@ -132,7 +132,7 @@ h2 {
     font-weight: extra-bold;
 }
 .quote-container {
-    height: 50Opx;
+    height: 480px;
     background-color: #E5E7EB;
 }
 .quote {
@@ -161,8 +161,8 @@ h3 {
 }
 .signup-box {
     display: flex;
-    width: 900px;
-    height: 150px;
+    width: 940px;
+    height: 175px;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 9px;
@@ -171,7 +171,7 @@ h3 {
 }
 .box-text {
     margin-top: 30px; 
-    margin-left: 140px;
+    margin-left: 150px;
     width: 300px;
     font-size: 11;
     white-space: pre-wrap;
